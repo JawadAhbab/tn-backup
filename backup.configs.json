@@ -1,0 +1,16 @@
+{
+  "base": "./",
+  "excludes": [
+    { "regexp": "\\\\node_modules$" },
+    { "regexp": "\\\\build$" },
+    { "regexp": "\\\\dist$" },
+    "./backup"
+  ],
+  "saves": [
+    {
+      "filename": "Backup",
+      "path": "./backup",
+      "frequency": "hourly"
+    }
+  ]
+}
